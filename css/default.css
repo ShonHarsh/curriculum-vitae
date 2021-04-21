@@ -1,0 +1,34 @@
+/******************************** TAG SELECTORS ********************************/
+body {
+  background-color: #BDD2B6;
+}
+
+h1 {
+  color: #000000;
+}
+
+hr {
+  border-color: #798777;
+  border-width: 2px;
+  border-style: dotted none none none;
+  border-width: 5px;
+  width: 5%;
+}
+
+/******************************** CLASS SELECTORS ********************************/
+/*
+ Class selectors can be used for multiple items or a group of related items
+ */
+.bacon {
+  background-color: #897853;
+}
+
+/******************************** ID SELECTORS ********************************/
+/*
+Id attributes can only be used once
+Id is the most specific selector
+ */
+#heading {
+  background-color: #e4d3cf;
+}
+/* a:hover - properties that begin with a colon are psudo classes */
