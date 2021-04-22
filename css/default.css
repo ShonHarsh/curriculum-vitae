@@ -1,23 +1,152 @@
-/******************************** TAG SELECTORS ********************************/
+a {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F8EDE3;
+}
+
 body {
   background-color: #BDD2B6;
+  font-family: 'Roboto', serif;
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+}
+
+.button-contact {
+  background: #798777;
+  background-image: -webkit-linear-gradient(top, #A2B29F, #798777);
+  background-image: -moz-linear-gradient(top, #A2B29F, #798777);
+  background-image: -ms-linear-gradient(top, #A2B29F, #798777);
+  background-image: -o-linear-gradient(top, #A2B29F, #798777);
+  background-image: linear-gradient(to bottom, #A2B29F, #798777);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button-contact:hover {
+  background: #5B6D5B;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+.cloud-left {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.cloud-right {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.cloud-right-mountain {
+  position: absolute;
+  right: 710px;
+  top: 430px;
+  z-index: -1;
+}
+
+.container-bottom {
+  margin: auto;
+  padding: 50px 0 20px;
+}
+
+.container-bottom a {
+  padding: 0 50px 0 50px;
+}
+
+.container-middle {
+  margin: 100px auto 100px auto;
+}
+
+.container-top {
+  margin: auto;
+  padding-top: 100px;
+  position: relative;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
 
 h1 {
-  color: #000000;
+  color: #798777;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #798777;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #798777;
+  font-family: 'Montserrat', sans-serif;
 }
 
 hr {
   border-color: #798777;
-  border-width: 2px;
   border-style: dotted none none none;
-  border-width: 5px;
+  border-width: 6px;
   width: 5%;
+}
+
+.image-study-owl {
+  float: right;
+  margin-left: 30px;
+}
+
+.image-microsoft-dynamics-365 {
+  float: left;
+  margin-right: 30px;
+}
+
+.image-shon-avatar {
+  margin: auto;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+p {
+  line-height: 2;
+}
+
+.skills {
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
 }
 
 /******************************** CLASS SELECTORS ********************************/
 /*
  Class selectors can be used for multiple items or a group of related items
+
+
+ font-family: 'Roboto', sans-serif;
+
  */
 .bacon {
   background-color: #897853;
@@ -28,7 +157,9 @@ hr {
 Id attributes can only be used once
 Id is the most specific selector
  */
+/*
 #heading {
   background-color: #e4d3cf;
 }
+*/
 /* a:hover - properties that begin with a colon are psudo classes */
