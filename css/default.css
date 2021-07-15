@@ -40,7 +40,6 @@ body {
   text-decoration: none;
 }
 
-
 .cloud-left {
   position: absolute;
   left: 250px;
@@ -85,7 +84,7 @@ body {
 }
 
 .footer-link {
-  background-size: 2000%;
+  background-size: 110%;
 }
 
 h1 {
@@ -147,27 +146,3 @@ p {
   text-align: left;
   width: 50%;
 }
-
-/******************************** CLASS SELECTORS ********************************/
-/*
- Class selectors can be used for multiple items or a group of related items
-
-
- font-family: 'Roboto', sans-serif;
-
- */
-.bacon {
-  background-color: #897853;
-}
-
-/******************************** ID SELECTORS ********************************/
-/*
-Id attributes can only be used once
-Id is the most specific selector
- */
-/*
-#heading {
-  background-color: #e4d3cf;
-}
-*/
-/* a:hover - properties that begin with a colon are psudo classes */
