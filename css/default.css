@@ -81,7 +81,11 @@ body {
 
 .copyright {
   font-size: 0.75rem;
-  padding: 20px 0;
+  padding: 20px 150px;
+}
+
+.footer-link {
+  background-size: 2000%;
 }
 
 h1 {
@@ -111,14 +115,18 @@ hr {
   width: 5%;
 }
 
-.image-study-owl {
+.image-robot {
   float: right;
+  height: 150px;
   margin-left: 30px;
+  width: 135;
 }
 
 .image-microsoft-dynamics-365 {
   float: left;
+  height: 150px;
   margin-right: 30px;
+  width: 149px;
 }
 
 .image-shon-avatar {
