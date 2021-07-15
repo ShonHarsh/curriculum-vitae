@@ -5,9 +5,18 @@
   <meta charset="utf-8">
   <title>Shon's Personal Website</title>
   <link rel="icon" href="favicon-terraria-tree.ico">
+  
   <link rel="stylesheet" href="css/default.css" type="text/css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Roboto:wght@400;700&family=Sacramento&display=swap" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion();
+  } );
+  </script>
 </head>
 
 <body>
@@ -28,7 +37,62 @@
       <h2>Hello</h2>
       <p>I love coffee and spicy food!</p>
     </div>
+
     <hr>
+
+    <div class="projects">
+        <div id="accordion">
+          <h4>HyperText Markup Language</h4>
+          <div class="skill-row">
+            <p class="skill-data">
+            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+            </p>
+          </div>
+          <h4>Cascading Style Sheets</h4>
+          <div>
+            <p class="skill-data">
+            Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+            purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+            velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+            suscipit faucibus urna.
+            </p>
+          </div>
+          <h4>JavaScript</h4>
+          <div>
+            <p class="skill-data">
+            Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+            Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+            ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+            lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+            </p>
+            <ul>
+              <li>List item one</li>
+              <li>List item two</li>
+              <li>List item three</li>
+            </ul>
+          </div>
+          <h4>Section 4</h4>
+          <div>
+            <p class="skill-data">
+            Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+            et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+            faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+            mauris vel est.
+            </p>
+            <p class="skill-data">
+            Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+            inceptos himenaeos.
+            </p>
+          </div>
+        </div>
+    </div>
+
+    <hr>
+
     <div class="skills">
       <h2>My Skills</h2>
       <div class="skill-row">
@@ -37,18 +101,20 @@
         <img src="images/study-owl.png" alt="Study" class="image-study-owl">
         <ul>
           <li><a href="https://www.udemy.com/course/git-and-github-bootcamp/">The Git & Github Bootcamp - Complete 2021-04-19</a></li>
-          <li><a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">The Complete 2021 Web Development Bootcamp - In progress</a></li>
-          <li><a href="https://www.udemy.com/course/the-complete-javascript-course/">The Complete JavaScript Course 2021: From Zero to Expert!</a></li>
+          <li><a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">The Complete 2021 Web Development Bootcamp - Complete 2021-06-08</a></li>
+          <li><a href="https://www.udemy.com/course/rpa-tech-overview/">UIPath RPA - Tech Primer - Complete 2021-06-09</a></li>
+          <li><a href="https://www.udemy.com/course/uipath-robotic-process-automation/">UiPath - Level 1 Robotic Process Automation - Complete 2021-06-15</a></li>
+          <li><a href="https://www.udemy.com/course/uipath-rpa-2/">UiPath RPA - Level 2</a></li>
           <li><a href="https://www.udemy.com/course/complete-python-bootcamp/">2021 Complete Python Bootcamp From Zero to Hero in Python</a></li>
           <li><a href="https://www.udemy.com/course/100-days-of-code/">100 Days of Code - The Complete Python Pro Bootcamp for 2021</a></li>
+          <li><a href="https://www.udemy.com/course/the-complete-javascript-course/">The Complete JavaScript Course 2021: From Zero to Expert!</a></li>
           <li><a href="https://www.udemy.com/course/python-for-machine-learning-data-science-masterclass/">2021 Python for Machine Learning & Data Science Masterclass</a></li>
-          <li><a href="https://www.udemy.com/course/bootstrap-to-wordpress/">WordPress Theme Development with Bootstrap in 2021</a></li>
-          <li><a href="https://www.udemy.com/course/wordpress-theme-and-plugin-development-course/">Complete WordPress Theme & Plugin Development Course [2021]</a></li>
           <li><a href="https://www.udemy.com/course/aws-certified-solutions-architect-associate/">AWS Certified Solutions Architect - Associate 2020</a></li>
           <li><a href="https://www.udemy.com/course/aws-certified-developer-associate/">AWS Certified Developer - Associate 2020</a></li>
-          <li><a href="https://www.udemy.com/course/rpa-tech-overview/">UIPath RPA - Tech Primer</a></li>
-          <li><a href="https://www.udemy.com/course/uipath-robotic-process-automation/">UiPath - Level 1 Robotic Process Automation</a></li>
-          <li><a href="https://www.udemy.com/course/uipath-rpa-2/">UiPath RPA - Level 2</a></li>
+          <li><a href="https://www.udemy.com/course/bootstrap-to-wordpress/">WordPress Theme Development with Bootstrap in 2021</a></li>
+          <li><a href="https://www.udemy.com/course/wordpress-theme-and-plugin-development-course/">Complete WordPress Theme & Plugin Development Course [2021]</a></li>
+
+
         </ul>
       </div>
       <div class="skill-row">
@@ -72,6 +138,7 @@
     <a class="footer-link" href="credits.html">Credits</a>
     <p class="copyright">© 2021 Shon Harsh</p>
   </div>
+
 </body>
 
 </html>
