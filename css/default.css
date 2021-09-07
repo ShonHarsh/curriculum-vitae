@@ -40,6 +40,12 @@ body {
   text-decoration: none;
 }
 
+.certification {
+  height: 200px;
+  position: relative;
+  width: 200px;
+}
+
 .cloud-left {
   position: absolute;
   left: 250px;
